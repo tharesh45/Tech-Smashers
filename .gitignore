@@ -1,0 +1,67 @@
+# -------------------------
+# Python / ML Project
+# -------------------------
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# Jupyter & Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# YOLO model weights
+*.pt
+*.pth
+runs/
+weights/
+models/*.pt
+best.pt
+last.pt
+
+# Dataset (optional to ignore)
+dataset/
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Logs
+*.log
+logs/
+wandb/
+
+# System / OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+*.env
+config.yaml
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Images generated during inference
+output/
+inference/
+results/
